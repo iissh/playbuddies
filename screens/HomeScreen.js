@@ -31,7 +31,6 @@ const HomeScreen = () => {
             const passedUserIds = passes.length > 0 ? passes: ['tst'];
             const makebudsUserIds = makebuds.length > 0 ? makebuds: ['tst'];
 
-            console.log([...passedUserIds, ...makebudsUserIds])
             unsub = onSnapshot(query(collection(db, "users"), where('id', 'not-in', [...passedUserIds, ...makebudsUserIds])), (snapshot) => {
                 setProfiles(
                     snapshot.docs.filter(doc => doc.id !== user.uid).map((doc) => ({
@@ -48,21 +47,17 @@ const HomeScreen = () => {
     const swipeLeft = (cardIndex) => {
         if (!profiles[cardIndex]) return;
         const userSwiped = profiles[cardIndex];
-        console.log(`You swiped pass on  ${userSwiped.displayName}`);
         setDoc(doc(db,'users', user.uid, 'passes', userSwiped.id), userSwiped);
     };
 
     const swipeRight = async(cardIndex) => {
-        console.log("made in swipe right fn");
         if (!profiles[cardIndex]) return;
 
         const userSwiped = profiles[cardIndex];
         const loggedInPerson = await (await getDoc(doc(db, "users", user.uid))).data();
         getDoc(doc(db, "users", userSwiped.id, "makebuds", user.uid)).then(
             (documentSnapshot) => {
-                console.log("snipey");
                 if (documentSnapshot.exists()) {
-                    console.log(`Buddies with ${userSwiped.displayName}`);
                     setDoc(doc(db, "users", user.uid, "makebuds", userSwiped.id), userSwiped);
 
                     setDoc(doc(db, "matches", createId(user.uid, userSwiped.id)), {
@@ -79,13 +74,10 @@ const HomeScreen = () => {
                         userSwiped,
                     })
                 } else {
-                    console.log("mno siper");
-                    console.log(`swiped on ${userSwiped.displayName} but they didnt back yet`);
                     setDoc(doc(db, "users", user.uid, "makebuds", userSwiped.id), userSwiped);
                 }
             }
         );
-        console.log("end of right")
     };
 
     return (
