@@ -28,7 +28,7 @@ Swipe the cards left (pass on a buddy) or right (match with a buddy) or use the 
 ### Customize Your Profile
 <br/>
 <img align="left" src="readme_imgs/customizeprofile.gif" width="480" height="auto"/> <br/> <br/>
-<br/> <br/> <br/> <br/> <br/> <br/> <br/>
+<br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
 
 
 ### Other Features
