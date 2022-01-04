@@ -20,9 +20,9 @@ Swipe the cards left (pass on a buddy) or right (match with a buddy) or use the 
 
 
 ### Other Features
-#### Clean UI/UX with Tailwind CSS
-#### Keyboard Friendly
-#### Extremely User Friendly
+* #### Clean UI/UX with Tailwind CSS
+* #### Keyboard Friendly
+* #### Extremely User Friendly
 
 
 ## Built With
