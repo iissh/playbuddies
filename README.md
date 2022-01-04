@@ -14,7 +14,7 @@ Message Buddies that you match with and connect with eachother. Note: the messag
 ### User Authentication with Google Sign in
 <img align="left" src="readme_imgs/loginout.gif" width="480" height="auto"/> <br/> <br/>
 Sign in with a Google account and create a profile! To sign out tap your icon in the top left corner of the screen.
-<br/> <br/> <br/> <br/> <br/> <br/>
+<br/> <br/> <br/> <br/> <br/> <br/> <br/>
 ### Buddy Algorithm 
 <img align="left" src="readme_imgs/matching.gif" width="480" height="auto"/> <br/> <br/>
 <br/> <br/> <br/> <br/> <br/> <br/>
