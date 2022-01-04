@@ -7,12 +7,7 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBwZM09_o-t3I3v3L81KaI6rh2MS6W_vrY",
-  authDomain: "playbuddies-fb6ea.firebaseapp.com",
-  projectId: "playbuddies-fb6ea",
-  storageBucket: "playbuddies-fb6ea.appspot.com",
-  messagingSenderId: "270325363163",
-  appId: "1:270325363163:web:54b6fae41ad5cc0256f7fe"
+  // contents of this file have been removed to preserve sensitive information
 };
 
 // Initialize Firebase
