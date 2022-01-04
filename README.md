@@ -2,7 +2,7 @@
 
 Play Buddies is an iOS app that allows gamers to meet other gamers and expand their network. Find like-minded people and make gaming more fun with new friends. This app was created with **React Native** and has many key features such as Google Signin, 1-to-1 messaging and more!
 
-View a demo here: 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/g9qzarVj1R8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Key Features
 
