@@ -21,12 +21,11 @@ Match up and initializes chat window for two users who swipe right on each other
 <br/> <br/> <br/> <br/> <br/> <br/> <br/><br/>
 ### Swipeable cards
 <img align="left" src="readme_imgs/swipeablecards.gif" width="480" height="auto"/> <br/> <br/>
-
 Swipe the cards left (pass on a buddy) or right (match with a buddy) or use the interactive buttons at the bottom of the screen.
 <br/> <br/> <br/> <br/> <br/> <br/> <br/>
 ### Customize Your Profile
-<br/>
 <img align="left" src="readme_imgs/customizeprofile.gif" width="480" height="auto"/> <br/> <br/>
+Add your own chosen profile image, your favourite games and your age to get started in Play Buddies.
 <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
 
 
