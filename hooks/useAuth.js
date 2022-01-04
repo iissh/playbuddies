@@ -15,7 +15,7 @@ const AuthContext = createContext({
 });
 
 const config = {
-    iosClientId: "270325363163-mafldupgaird4tgdrvh6f4vo02gbi96j.apps.googleusercontent.com",
+    iosClientId: REMOVED DUE TO SENSITIVE INFORMATION
     scopes: ["profile", "email"],
     permissions: ["public_profile", "email", "gender", "location"],
 }
