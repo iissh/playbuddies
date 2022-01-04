@@ -7,6 +7,7 @@ View a demo here:
 ## Key Features
 
 ### 1-to-1 Messaging
+<br/> <br/>
 <img align="left" src="readme_imgs/messaging.gif" width="480" height="auto"/> <br/> <br/>
 
 ### User Authentication with Google Sign in
